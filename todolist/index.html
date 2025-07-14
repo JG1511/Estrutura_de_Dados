@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <form action="" id="cadastro_de_tarefa">
+
+        <label for="descricao">Discrição</label><br>
+        <input type="text" id ="descricao" name="descricao"><br>
+        
+        <label for="date">Data</label>
+        <input type="date" id = "date" name="date">
+
+        <input type="submit" value="Enviar">
+        
+    </form>
+
+    <form action="" id="barra_de_pesquisa">
+        <label for="pesquisa">Pesquisa:</label>
+        <input type="number" id="pesquisa" name="pesquisa">
+
+        <button id = "buscar">Buscar</button>
+    </form>
+    <br>
+    <br>
+   <div id="carlos_maia">
+     <table>
+        <tr class="teste_tabela">
+            <th>Id</th>
+            <th>Descrição</th>
+            <th>Data</th>
+        </tr>
+        <tbody id="lista_do_carlos_maia"></tbody>
+    </table>
+   </div>
+
+    <hr>
+
+<script src="app.js"></script>
+
+</body>
+
+
+</html>
